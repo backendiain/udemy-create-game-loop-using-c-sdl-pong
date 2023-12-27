@@ -1,0 +1,6 @@
+.vs
+*.vcxproj*
+
+Debug
+Release
+*.dll
