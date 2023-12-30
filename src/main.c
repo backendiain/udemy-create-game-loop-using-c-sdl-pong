@@ -720,7 +720,7 @@ void render_player_zero_score()
 	dest.h = SCORE_NUM_SPRITE_HEIGHT;
 
 	// A score higher than NINE, are you insane!?
-	if (score->points > 0 && score->points < 10)
+	if (score->points > SCORE_MIN && score->points < SCORE_MAX + 1)
 		src.x += src.w * score->points;
 
 	SDL_BlitSurface(game_screen_num_map, &src, screen_surface, &dest);
@@ -743,7 +743,7 @@ void render_player_one_score()
 	dest.h = SCORE_NUM_SPRITE_HEIGHT;
 
 	// A score higher than NINE, are you insane!?
-	if (score->points > 0 && score->points < 10)
+	if (score->points > SCORE_MIN && score->points < SCORE_MAX + 1)
 		src.x += src.w * score->points;
 
 	SDL_BlitSurface(game_screen_num_map, &src, screen_surface, &dest);

@@ -10,6 +10,7 @@ If it helps someone else tinkering in SDL then great, if not, have fun!
 ### Controls
 I've set this up so that it can be played by two people on the one keyboard.
 
+* `ESC` - Will close the game
 * `spacebar` - Will start your game from the title screen
 * `F1` - Will reset the game to the title screen at any time
 * `w` - Moves the left paddle up
@@ -17,10 +18,10 @@ I've set this up so that it can be played by two people on the one keyboard.
 * `up` - Moves the right paddle up
 * `down` - Moves the right paddle down
 
-The winner is the first to score 9 points because double digits is extremely taxing on modern hardware.
+The winner is the first to score 10 points because double digits is extremely taxing on modern hardware.
 
 ### Downloading
-Check out the Releases tab and just download whatever is latest.
+Check out the [Releases](https://github.com/backendiain/udemy-create-game-loop-using-c-sdl-pong/releases) tab and just download whatever is latest.
 
 I highly doubt there's going to be many people looking at this so I'll just stick up the Windows builds.
 
