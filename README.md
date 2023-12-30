@@ -34,14 +34,14 @@ https://www.youtube.com/watch?v=tmGBhM8AEj8
 I don't see any reason why compiling and linking with gcc wouldn't work if you've got SDL2 on your distro.
 
 Instructions on how to set that up here:
-https://www.youtube.com/watch?v=XfZ6WrV5Z7Y&t=562s (Linux)
-https://www.youtube.com/watch?v=XfZ6WrV5Z7Y&t=693s (Mac)
-https://wiki.libsdl.org/SDL2/Installation
+* https://www.youtube.com/watch?v=XfZ6WrV5Z7Y&t=562s (Linux)
+* https://www.youtube.com/watch?v=XfZ6WrV5Z7Y&t=693s (Mac)
+* https://wiki.libsdl.org/SDL2/Installation
 
 If you use WSL (Windows Subsystem for Linux) then the Linux install steps should work for you too.
 
 This'll probably work if you've set things up properly on Linux/Mac:
-`gcc src/main.c "sdl2-config --cflags --libs" -o pong`
+* `gcc src/main.c "sdl2-config --cflags --libs" -o pong`
 
 NOTE: You *might* need to tweak the paths to the image if you're not using Visual Studio or its executable directory is configured differently. I'll tweak the code if it's really an issue.
 
