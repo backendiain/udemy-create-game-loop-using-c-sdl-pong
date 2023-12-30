@@ -38,10 +38,10 @@ Instructions on how to set that up here:
 * https://www.youtube.com/watch?v=XfZ6WrV5Z7Y&t=693s (Mac)
 * https://wiki.libsdl.org/SDL2/Installation
 
-If you use WSL (Windows Subsystem for Linux) then the Linux install steps should work for you too.
-
 This'll probably work if you've set things up properly on Linux/Mac:
 * `gcc src/main.c "sdl2-config --cflags --libs" -o pong`
+
+If you use WSL (Windows Subsystem for Linux) then the Linux install steps should work for you too.
 
 NOTE: You *might* need to tweak the paths to the image if you're not using Visual Studio or its executable directory is configured differently. I'll tweak the code if it's really an issue.
 
@@ -65,5 +65,5 @@ Both these guys are worth your time, effort and money.
 * [Gustavo Pezzi on Udemy](https://www.udemy.com/user/gustavopezzi/)
 * [Gustavo Pezzi's Pikuma.com](https://pikuma.com/)
 * [Handmade Hero](https://handmadehero.org/)
-* [Handmade Hero Playlist](https://www.youtube.com/playlist?list=PLnuhp3Xd9PYTt6svyQPyRO_AAuMWGxPzU).
+* [Handmade Hero Playlist](https://www.youtube.com/playlist?list=PLnuhp3Xd9PYTt6svyQPyRO_AAuMWGxPzU)
 * [SDL repo](https://github.com/libsdl-org/SDL)
