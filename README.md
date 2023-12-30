@@ -56,7 +56,7 @@ I knew movement vectors were the secret sauce for ball movement but wasn't sure 
 [flightcrank](https://github.com/flightcrank/pong/tree/master) was kind enough to share their code on github which helped me. Give them a star.
 
 Also special thanks to:
-* [Gustavo Pezzi](https://github.com/gustavopezzi) who got a backend dev like me into fun game dev stuff a few years ago with his great build a game for the Atari VCS series on Udemy a few years ago.
+* [Gustavo Pezzi](https://github.com/gustavopezzi) who got a backend dev like me into fun game dev stuff a few years ago with his great build a game for the Atari VCS series on Udemy.
 * [Casey Muratori](https://github.com/cmuratori) whose Handmade Hero tutorial series has proved fun and invaluable. SDL's API is pretty simple but building an engine along with Casey made it all feel familiar and something I actually understood. I adapted his input flow pattern here for Pong.
 
 Both these guys are worth your time, effort and money.
