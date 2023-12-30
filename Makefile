@@ -1,8 +1,8 @@
 build:
-	gcc -Wall -std=c99 ./src/*.c -o game
+	gcc -Wall -std=c99 ./src/*.c `sdl2-config --cflags --libs` -o pong
 
 run: 
-	./game
+	./pong
 
 clean:
-	rm game
+	rm pong
