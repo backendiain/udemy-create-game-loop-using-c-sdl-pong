@@ -231,6 +231,14 @@ int init_screen_surfaces()
 	}
 }
 
+void release_assets()
+{
+	SDL_FreeSurface(screen_surface);
+	SDL_FreeSurface(title_screen);
+	SDL_FreeSurface(game_screen_num_map);
+	SDL_FreeSurface(game_over_screen);
+}
+
 void init_scoreboard()
 {
 	struct score default_score;
@@ -848,6 +856,7 @@ int main(int argc, char* args[])
 		render();
 	}
 
+	release_assets();
 	destroy_window();
 
 	return 0;
